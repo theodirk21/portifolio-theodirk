@@ -260,6 +260,26 @@ header {
     font-size: 18px;
 }
 
+.mais-repositorios{
+    background-color: transparent;
+    border-color: navy;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 47%;
+    margin-top: 5%;
+    padding: 0.8em 1em 0.8em 1em;
+}
+
+.mais-repositorios:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+  
+
+
+}    
+
 footer {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
