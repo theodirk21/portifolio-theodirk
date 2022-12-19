@@ -147,7 +147,7 @@ header {
 
 .estudos {
     width: 100%;
-    margin: 0 auto;
+    margin-right: 0;
     padding: 50px 0;
 }
 
@@ -167,9 +167,12 @@ header {
 
 .estudos li h2 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
+.estudos li p {
+    font-size: 100%;
+}
 .aprendizado {
     font-weight: bold;
     text-decoration: underline;
@@ -198,7 +201,8 @@ header {
 .botao-certificado:hover{
     background-color: #5274da;
     width: 82%;
-    font-style: italic;
+    font-weight: bold;
+    font-size: 0.8em;
 }
 
 .projetos-titulo {
