@@ -1,3 +1,4 @@
+
 body {
    background: #040108;
    font-family: 'Montserrat', sans-serif;
@@ -52,17 +53,22 @@ header {
 
 
 .contatos {
+    display: flex;
     position: fixed;
     list-style: none; 
-    max-width: 100%;
     background-color: #040108;
+    width: 4%;
 }
 
 .contatos li{
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    padding-right: 1em;
-    padding-left: 1em;
+  padding: 50%;
+
+}
+
+.contatos a img {
+    width: 30px;
+    height: 30px;
+    object-fit: scale-down;
 }
 
 .banner-com-infomacao {
@@ -206,7 +212,7 @@ header {
 .projetos {
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 2em;
+    padding: 3em 0;
     background: white;
     transition: all .10s;
     list-style: none;
